@@ -1,7 +1,7 @@
 {
   "name": "xablaujs",
-  "version": "1.0.0",
-  "description": "XablauJS is a Headless CMS using MongoDB and Node.js",
+  "version": "1.0.1",
+  "description": "XablauJS é um \"Headless CMS\" feito em Node.js com MongoDB",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
