@@ -63,7 +63,7 @@ Lista os pontos de acesso.
 | DELETE | /{pontoDeAcesso}         |   Remove todos os itens da estrutura com os parametro passados no cabeçalho   |     Result      |
 
 
-### Delete
+### POST
 
 #### /{pontoDeAcesso}
 
@@ -78,7 +78,7 @@ Nos pontos de acesso de inserção devem ser passados N parametros por cabeçalh
 `campon` : valor do campon
 
 
-### Delete
+### DELETE
 
 #### /{pontoDeAcesso}
 
