@@ -1,0 +1,37 @@
+{
+  "name": "xablaujs",
+  "version": "1.0.0",
+  "description": "XablauJS is a Headless CMS using MongoDB and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinifig/xablaujs.git"
+  },
+  "keywords": [
+    "CMS",
+    "Headless",
+    "mongo",
+    "mongodb",
+    "mongoose"
+  ],
+  "contributors": [
+    {
+      "name": "Vinicius Figueiredo Rodrigues",
+      "email": "vinifig@hotmail.com"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinifig/xablaujs/issues"
+  },
+  "homepage": "https://github.com/vinifig/xablaujs#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.5"
+  }
+}
