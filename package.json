@@ -1,6 +1,6 @@
 {
   "name": "xablaujs",
-  "version": "1.0.1",
+  "version": "1.0.02",
   "description": "XablauJS é um \"Headless CMS\" feito em Node.js com MongoDB",
   "main": "index.js",
   "scripts": {
