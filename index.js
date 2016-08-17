@@ -13,7 +13,7 @@ const structs = [];
 const xablau = {
   init : function(db_data, expapp){
     db_configurations.server = db_data.server || 'localhost';
-    db_configurations.port = db_data.port || 27019;
+    db_configurations.port = db_data.port || 27017;
     db_configurations.dbname = db_data.dbname || 'xablau';
 
     expapp.use(cors());

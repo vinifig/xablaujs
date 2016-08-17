@@ -1,5 +1,5 @@
 'use strict';
-const xablau = require('xablaujs');
+const xablau = require('./index.js');
 
 const app = xablau.Server();
 
@@ -11,6 +11,6 @@ var kittySchema = xablau.Schema({
 xablau.structs.add('kitty', kittySchema)
 
 // init with db_info
-xablau.init({server: 'localhost', port: 32900, dbname: 'xablau'}, app);
+xablau.init({server: 'localhost', dbname: 'xablau'}, app);
 
 app.listen(8080)
